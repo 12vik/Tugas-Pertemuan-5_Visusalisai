@@ -2,7 +2,7 @@ let zombies = [];
 
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(600, 600);
 
   for (let k = 0; k < 40; k++){
     zombies.push(new Mover());
@@ -10,9 +10,9 @@ function setup() {
 }
 
 function draw() {
-  background(1440,222,104);
+  background(112, 128, 145);
   noStroke();
-  fill('olive');
+  fill('Tan');
   ellipse(mouseX, 
          mouseY, 
          30,
